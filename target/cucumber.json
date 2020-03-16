@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3629438107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.launchbrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "login facebook",
+        "description": "",
+        "id": "check-the-facebook-login-functionality;login-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 2356233668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 290298,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch the browser",
+            "match": {
+              "location": "LoginStepDefinition.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6840727388,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "load the facebook url",
+            "match": {
+              "location": "LoginStepDefinition.load_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3316030772,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username and password in facebook page",
+            "match": {
+              "location": "LoginStepDefinition.enter_username_and_password_in_facebook_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3235089834,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291764,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User succesfully login the facebook page",
+            "match": {
+              "location": "LoginStepDefinition.user_succesfully_login_the_facebook_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check the facebook login functionality",
+    "description": "",
+    "id": "check-the-facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/ADMIN/eclipse-workspace/Cucumber_New/src/test/resources/First/firstcucumber.feature",
+    "tags": []
+  }
+]
